@@ -8,32 +8,35 @@ Personal Task Tracker is a comprehensive task management solution that allows us
 
 ## 🚀 Features
 
-- **User Authentication** - Simple username-based login system
-- **Task Management** - Create, edit, delete, and mark tasks as complete
-- **Priority Levels** - Organize tasks by Low, Medium, and High priority
-- **Categories** - Classify tasks into Work, Personal, Shopping, Health, and Other
-- **Due Dates** - Set deadlines with visual indicators for overdue tasks
-- **Search & Filter** - Find tasks quickly with search and filter options
-- **Dark Mode** - Toggle between light and dark themes
-- **Data Persistence** - All data saved locally using localStorage
-- **Responsive Design** - Works seamlessly on desktop and mobile devices
-- **Visual Feedback** - Color-coded priorities and status indicators
-- **Sample Data** - Pre-loaded tasks for new users to explore features
+* **User Authentication** - Simple username-based login system
+* **Task Management** - Create, edit, delete, and mark tasks as complete
+* **Priority Levels** - Organize tasks by Low, Medium, and High priority
+* **Categories** - Classify tasks into Work, Personal, Shopping, Health, and Other
+* **Due Dates** - Set deadlines with visual indicators for overdue tasks
+* **Search & Filter** - Find tasks quickly with search and filter options
+* **Dark Mode** - Toggle between light and dark themes
+* **Data Persistence** - All data saved locally using localStorage
+* **Responsive Design** - Works seamlessly on desktop and mobile devices
+* **Visual Feedback** - Color-coded priorities and status indicators
+* **Sample Data** - Pre-loaded tasks for new users to explore features
 
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/your-username/personal-task-tracker.git
-   cd personal-task-tracker
+   git clone https://github.com/PraTham-Patill/task-tracker.git
+   cd task-tracker
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -43,12 +46,12 @@ Personal Task Tracker is a comprehensive task management solution that allows us
 
 ## 🧰 Technologies Used
 
-- **React.js** - Frontend framework for building user interfaces
-- **JavaScript (ES6+)** - Modern JavaScript features and syntax
-- **CSS3** - Styling with custom properties and animations
-- **HTML5** - Semantic markup structure
-- **localStorage** - Client-side data persistence
-- **React Hooks** - State management and side effects
+* **React.js** - Frontend framework for building user interfaces
+* **JavaScript (ES6+)** - Modern JavaScript features and syntax
+* **CSS3** - Styling with custom properties and animations
+* **HTML5** - Semantic markup structure
+* **localStorage** - Client-side data persistence
+* **React Hooks** - State management and side effects
 
 ## 📱 Usage
 
@@ -61,27 +64,25 @@ Personal Task Tracker is a comprehensive task management solution that allows us
 
 ## 🔗 Live Demo
 
-🌐 **[View Live Demo](https://your-deployment-url.vercel.app)**
-
-*Note: This will be updated with the actual deployment URL*
+🌐 **[View Live Demo](https://taskk-trackerr.vercel.app/)**
 
 ## 🖼️ Screenshots
 
-### Light Mode Dashboard
-![Light Mode Dashboard](screenshots/light-mode-dashboard.png)
+### Dark Mode Dashboard
 
-### Dark Mode with Task Form
-![Dark Mode Task Form](screenshots/dark-mode-task-form.png)
+![Dark Mode Dashboard](Dark.png)
 
-*Screenshots will be added after deployment*
+### Light Mode with Task Form
+
+![Light Mode with Task Form](Light.png)
 
 ## 🎨 Features Showcase
 
-- **Intuitive Interface** - Clean, modern design with smooth interactions
-- **Visual Feedback** - Color-coded priorities and status indicators
-- **Mobile Responsive** - Optimized for all screen sizes
-- **Accessibility** - Proper focus management and keyboard navigation
-- **Performance** - Efficient rendering and state management
+* **Intuitive Interface** - Clean, modern design with smooth interactions
+* **Visual Feedback** - Color-coded priorities and status indicators
+* **Mobile Responsive** - Optimized for all screen sizes
+* **Accessibility** - Proper focus management and keyboard navigation
+* **Performance** - Efficient rendering and state management
 
 ## 🔧 Project Structure
 
@@ -105,101 +106,42 @@ src/
 
 ## 🌟 Key Highlights
 
-- **Component-Based Architecture** - Well-organized, reusable React components
-- **State Management** - Efficient use of React hooks (useState, useEffect)
-- **Error Handling** - Proper validation and user feedback
-- **Code Quality** - Clean, readable, and maintainable code
-- **User Experience** - Intuitive design with helpful animations
-- **Data Persistence** - Reliable localStorage implementation
+* **Component-Based Architecture** - Well-organized, reusable React components
+* **State Management** - Efficient use of React hooks (useState, useEffect)
+* **Error Handling** - Proper validation and user feedback
+* **Code Quality** - Clean, readable, and maintainable code
+* **User Experience** - Intuitive design with helpful animations
+* **Data Persistence** - Reliable localStorage implementation
 
 ## 🚀 Deployment
 
 ### Deploy to Vercel
 
 1. **Install Vercel CLI**
+
    ```bash
    npm install -g vercel
    ```
 
 2. **Build the project**
+
    ```bash
    npm run build
    ```
 
 3. **Deploy**
+
    ```bash
    vercel
    ```
 
-### Deploy to Netlify
-
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Deploy the `build` folder to Netlify**
-
-### Deploy to GitHub Pages
-
-1. **Install gh-pages**
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-
-2. **Add deployment script to package.json**
-   ```json
-   "scripts": {
-     "deploy": "gh-pages -d build"
-   }
-   ```
-
-3. **Deploy**
-   ```bash
-   npm run build
-   npm run deploy
-   ```
-
-## 🔮 Future Enhancements
-
-- [ ] Cloud synchronization across devices
-- [ ] Task sharing and collaboration features
-- [ ] Recurring tasks and reminders
-- [ ] Task statistics and analytics
-- [ ] Export/import functionality
-- [ ] Mobile app version
-- [ ] Push notifications
-- [ ] Task templates
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🐛 Known Issues
-
-- Tasks are stored locally and won't sync across devices
-- No user authentication beyond username storage
-- Limited to browser localStorage capacity (typically 5-10MB)
-
 ## 💡 Technical Implementation
 
-- **React Hooks** for state management and lifecycle methods
-- **CSS Grid & Flexbox** for responsive layouts
-- **CSS Custom Properties** for theme management
-- **Local Storage API** for data persistence
-- **Event Handling** for user interactions
-- **Form Validation** with real-time feedback
+* **React Hooks** for state management and lifecycle methods
+* **CSS Grid & Flexbox** for responsive layouts
+* **CSS Custom Properties** for theme management
+* **Local Storage API** for data persistence
+* **Event Handling** for user interactions
+* **Form Validation** with real-time feedback
 
 ---
-
-**Built with ❤️ using React.js**
-
-*This project demonstrates proficiency in modern React development, component architecture, state management, and web development best practices.*
