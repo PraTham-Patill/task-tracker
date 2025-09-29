@@ -54,7 +54,7 @@ Personal Task Tracker is a comprehensive task management solution that allows us
 - **React.js** - Frontend framework for building user interfaces
 - **Node.js / Express (Simulated)** – Backend API structure and routing  
 - **JWT** – Authentication simulation for protected routes  
-- **localStorage** – Data persistence simulation  
+- **MySQL Database** for task and session persistence  
 - **Logging** – Tracks authentication and task operations in `logs/` folder  
 - **JavaScript (ES6+)** – Backend logic simulation  
 - **API Design Concepts** – REST principles, status codes, error handling, validation  
@@ -112,7 +112,7 @@ src/
 │ ├── auth.log # Tracks registration/login events
 │ └── tasks.log # Tracks task CRUD operations
 ├── utils/
-│ ├── database.js # MySQL database connection and utilities
+│ ├── localStorage.js # MySQL database connection and utilities
 │ └── sampleData.js # Sample tasks for demo
 ├── styles/
 │ └── App.css # Main stylesheet
