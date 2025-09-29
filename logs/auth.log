@@ -1,0 +1,4 @@
+[2025-09-29 10:12:05] INFO: User 'pratham' registered successfully.
+[2025-09-29 10:13:22] INFO: User 'pratham' logged in successfully.
+[2025-09-29 10:15:10] WARN: Failed login attempt for user 'testuser'.
+[2025-09-29 10:16:45] INFO: JWT token issued for user 'pratham'.
